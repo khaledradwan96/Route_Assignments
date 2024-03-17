@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 02</title>
+</head>
+
+<body>
+    <form action="post">
+        <fieldset style="background-color: #F2C18D;">
+            <legend style="background-color: #A5DD9B;">Personal Data</legend>
+
+            <!-- First Data Group -->
+            <fieldset style="background-color: #F6F193;">
+                <legend style="background-color: #C5EBAA;"><br>YourName<br /><br /></legend>
+                <table>
+                    <tr>
+                        <td><label for="fname">first name</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="fname" placeholder="ex ahmed" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sname">second name</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="sname" placeholder="ex bahnasy" name="sname"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br /> <br />
+
+            <!-- Second Data Group -->
+            <table>
+                <tr>
+                    <td><label for="phone">your phone</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="phone" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" id="email" name=" email"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">password</label></td>
+                    <td>:</td>
+                    <td><input type="password" id="pass" name="pass"></td>
+                </tr>
+                <tr>
+                    <td><label for="re-pass">re-password</label></td>
+                    <td>:</td>
+                    <td><input type="password" id="re-pass" name="re-pass"></td>
+                </tr>
+            </table>
+
+            <br /> <br />
+
+            <!-- Check Data Group -->
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <br />
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+
+            <br /> <br />
+
+            <input type="checkbox" name="status" id="student" value="student">
+            <label for="student">Student</label>
+            <br />
+            <input type="checkbox" name="status" id="graduated" value="graduated">
+            <label for="graduated">Graduated</label>
+
+            <br /> <br />
+
+            <!-- Select Data Group -->
+            <select name="select" id="select">
+                <optgroup label="Group 1">
+                    <option value="1.1">Option 1.1</option>
+                </optgroup>
+
+                <optgroup label="Group 2">
+                    <option value="2.1">Option 2.1</option>
+                    <option value="2.2">Option 2.2</option>
+                </optgroup>
+
+                <optgroup label="Group 3" disabled>
+                    <option value="3.1">Option 3.1</option>
+                    <option value="3.2">Option 3.2</option>
+                    <option value="3.3">Option 3.3</option>
+                </optgroup>
+            </select>
+
+            <br /> <br />
+
+            <button type="submit" style="padding: 0;">
+                <img src="submit-button-clipart.png" width="100px"></button>
+
+            <br /> <br /> <br /> <br />
+        </fieldset>
+    </form>
+</body>
+
+</html>
